@@ -1,0 +1,31 @@
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #2e2e2e;
+  padding: 14px 34px;
+  border-radius: 70px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s;
+
+  & :hover {
+    background: #d29b5f;
+  }
+}
+
+.title {
+  z-index: 2;
+  font-size: 100px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container {
+  margin: 0 5px;
+}

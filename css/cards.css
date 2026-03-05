@@ -1,0 +1,43 @@
+/* CARDS  */
+
+.title {
+  font-size: 100px;
+  font-weight: 900;
+  color: #2e2e2e;
+  margin-bottom: 100px;
+  line-height: 1.1;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  text-align: center;
+  background-color: #cdb491;
+  border-radius: 30px;
+  padding: 100px 30px;
+  max-width: 350px;
+}
+
+.card p {
+  font-size: 30px;
+  color: #2e2e2e;
+  font-weight: 10;
+  line-height: 1.4;
+}
+
+.icon {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon img {
+  width: 240px;
+}

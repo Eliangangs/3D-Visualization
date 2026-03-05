@@ -1,0 +1,49 @@
+@media (max-width: 900px) {
+  .promo-box {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .icon {
+    top: -60px;
+  }
+
+  .icon img {
+    width: 140px;
+  }
+
+  /* ХТО Я */
+  .role {
+    font-size: 32px;
+    margin-right: 0;
+  }
+
+  /* PROGRAM */
+  .program-card {
+    flex-direction: column;
+  }
+
+  .program-left,
+  .program-right {
+    padding: 30px;
+  }
+
+  /* LESSON */
+  .lesson {
+    grid-template-columns: 1fr;
+  }
+
+  .lesson-left,
+  .lesson-right {
+    padding: 25px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+}

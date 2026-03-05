@@ -1,0 +1,44 @@
+
+/* PROGRAM and LESSONS */
+.program-section {
+  padding: 100px 0;
+}
+
+.program-title {
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.program-card {
+  display: flex;
+  border-radius: 40px;
+  overflow: hidden;
+  margin-bottom: 60px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+}
+
+.program-element {
+  flex: 1;
+  padding: 30px;
+  font-size: 24px;
+
+  & p {
+    font-size: 20px;
+  }
+}
+
+.program-element.left {
+  background-color: #d4b086;
+}
+
+.program-element.right {
+  background-color: #2e2e2e;
+  color: #d4b086;
+}
+
+.program-element-center {
+  display: flex;
+  align-items: center;
+}

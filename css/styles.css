@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f4e7d7;
+  --light: #d6b189;
+  --dark: #2e2e2e;
+  --accent: #e0b07a;
+  --text: #2e2e2e;
+  --radius: 30px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+section {
+  padding: 90px 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e9e3db;
+  color: #222;
+}
