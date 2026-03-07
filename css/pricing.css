@@ -7,7 +7,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  margin-top: 60px;
+}
+
+.pricing.container {
+  text-align: center;
+  justify-content: center;
 }
 
 .price-card {
@@ -52,6 +56,7 @@
 .line-through {
   text-decoration: line-through;
 }
+
 footer {
   text-align: center;
   padding: 50px 0;
