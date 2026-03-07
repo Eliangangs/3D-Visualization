@@ -3,3 +3,7 @@
 .payment.container {
     text-align: center;
 }
+
+.payment .title {
+    margin-bottom: 20px;
+}

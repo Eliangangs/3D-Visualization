@@ -8,12 +8,12 @@
     font-size: 30px;
   }
 
-    .icon {
-      top: -60px;
-    }
+  .icon {
+    top: -60px;
 
-  .icon img {
-    height: 140px;
+    & img {
+      height: 130px;
+    }
   }
 
   /* ХТО Я */
@@ -32,6 +32,10 @@
     }
   }
 
+  .card {
+    margin-top: 60px;
+  }
+
   .program-left,
   .program-right {
     padding: 30px;
@@ -48,6 +52,6 @@
   }
 
   section {
-    padding: 15px 0;
+    padding: 30px 0;
   }
 }
