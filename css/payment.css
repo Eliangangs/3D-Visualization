@@ -1,9 +1,27 @@
 /* PAYMENT */
 
 .payment.container {
-    text-align: center;
+  text-align: center;
 }
 
 .payment .title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.payment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.payment-element {
+  flex: 1;
+  background-color: #fff;
+  border-radius: var(--radius);
+  text-align: center;
+  padding: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
