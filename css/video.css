@@ -1,26 +1,24 @@
 /* VIDEO BLOCK */
 
 .video-block {
-  width: 700px;
   max-width: 400px;
-  height: 550px;
-  background: var(--dark);
+  background: var(--dark);  
   border-radius: var(--radius);
   padding: 50px;
   color: #fff;
   margin: auto;
-  overflow: hidden; /* щоб відео не вилазило */
+
+  text-align: center;
+
+  & video {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius);
+  }
 }
 
 .video-block.left {
   margin: 0;
-}
-
-.video-block video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* красиво заповнює блок */
-  display: block;
 }
 
 .media-box {
